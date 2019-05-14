@@ -23,5 +23,5 @@ systemctl start docker
 systemctl enable docker
 
 yum install python-pip
-yum install docker-compose
+pip install docker-compose
 
