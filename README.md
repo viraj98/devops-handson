@@ -18,10 +18,15 @@
 - yum install -y docker
 - yum install -y git
 
-systemctl status docker
-systemctl start docker
-systemctl enable docker
+- systemctl status docker
+- systemctl start docker
+- systemctl enable docker
 
-yum install python-pip
-pip install docker-compose
+- yum install python-pip
+- pip install docker-compose
+
+- docker-compose up -d
+- docker-compose down - to remove container. 
+
+
 
