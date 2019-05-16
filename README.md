@@ -21,3 +21,22 @@
 - systemctl start jenkins
 - systemctl enable jenkins
 - Browsing jenkins url and setting up default plugin is taking 7 to 8 mins. 
+
+ - wget https://storage.googleapis.com/golang/go1.12.5.linux-amd64.tar.gz
+-  tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
+
+Jenkins job bash script. 
+```
+export GOROOT=/usr/local/go
+export PATH=$PATH:/usr/local/go/bin
+export GOBIN=$WORKSPACE/bin
+
+# Build 
+go version
+go install $WORKSPACE/app/app.go
+
+# Deployment
+if pgrep app; then pkill app; fi
+BUILD_ID=dontKillMe nohup $WORKSPACE/bin/app>>app.log & 
+echo Deployment successful. 
+```
