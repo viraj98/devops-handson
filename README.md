@@ -13,13 +13,14 @@
 
 ## Setting up Centos 7 Server. 
 ```
-- yum update -y; yum install -y epel-release; yum install -y htop wget nload vim mlocate git python-pip
-- yum install java-1.8.0-openjdk-devel
-- wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-- rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-- yum install -y jenkins
-- systemctl start jenkins
-- systemctl enable jenkins
+sudo su # switch to root user
+yum update -y; yum install -y epel-release; yum install -y htop wget nload vim mlocate git python-pip
+yum install java-1.8.0-openjdk-devel
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install -y jenkins
+systemctl start jenkins
+systemctl enable jenkins
 ```
 - Browsing jenkins url and setting up default plugins is taking 7 to 8 mins. 
 ```
