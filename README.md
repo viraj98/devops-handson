@@ -20,3 +20,4 @@
 - yum install -y jenkins
 - systemctl start jenkins
 - systemctl enable jenkins
+- Browsing jenkins url and setting up default plugin is taking 7 to 8 mins. 
