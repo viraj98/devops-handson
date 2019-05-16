@@ -8,7 +8,7 @@
   - Region select West Europe
   - Image select Cento7.5 D2s V3
   - Setup username and password
-  - Allow public inbound ports http, ssh
+  - Allow public inbound ports http, ssh, 8080,8081
 
 
 ## Setting up Centos 7 Server. 
