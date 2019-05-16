@@ -1,9 +1,15 @@
-from flask import Flask
-app = Flask(__name__)
+package main
 
-@app.route("/")
-def hello():
-    return "Hello World!"
+import (
+    "fmt"
+    "net/http"
+)
 
-if __name__ == "__main__":
-app.run()
+func helloWorld(w http.ResponseWriter, r *http.Request){
+    fmt.Fprintf(w, "Hello World")
+}
+
+func main() {
+    http.HandleFunc("/", helloWorld)
+    http.ListenAndServe(":8080", nil)
+}
