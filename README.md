@@ -29,6 +29,8 @@ wget https://storage.googleapis.com/golang/go1.12.5.linux-amd64.tar.gz
 tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
 ```
 
+## Steps for manualy deployment. 
+
 ## Jenkins job
 - Create new jenkins job <Free style>
 - Configure git url
@@ -47,3 +49,8 @@ if pgrep app; then pkill app; fi
 BUILD_ID=dontKillMe nohup $WORKSPACE/bin/app>>app.log & 
 echo Deployment successful. 
 ```
+
+## Enhance jenkins job with build trigger 
+
+## We will explain git pull request builder. (Voice over) - show sample jenkins job. with nexus sonar testing. 
+## Broken code demo. 
