@@ -14,7 +14,7 @@
 ## Setting up Centos 7 Server. 
 ```
 sudo su # switch to root user
-yum update -y; yum install -y epel-release; yum install -y htop wget nload vim mlocate git python-pip
+yum update -y; yum install -y epel-release; yum install -y htop wget vim mlocate git
 yum install java-1.8.0-openjdk-devel
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
