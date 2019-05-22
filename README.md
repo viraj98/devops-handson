@@ -28,7 +28,10 @@ wget https://storage.googleapis.com/golang/go1.12.5.linux-amd64.tar.gz
 tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
 ```
 
-## Jenkins job bash script. 
+## Jenkins job
+- Create new jenkins job <Free style>
+- Configure git url
+- In build step, add bash and add below script 
 ```
 export GOROOT=/usr/local/go
 export PATH=$PATH:/usr/local/go/bin
