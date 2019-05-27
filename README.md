@@ -42,7 +42,9 @@ exit # to exit from root user
   ```
   - ` go version `
   - `go install app/app.go` 
-   
+  - `cd bin; ls`
+  - `./app` 
+  - `ctrl/cmd + c` 
 
 ## Jenkins job
 - Create new jenkins job <Free style>
