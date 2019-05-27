@@ -37,7 +37,7 @@ tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
   ``` 
    export GOROOT=/usr/local/go
    export PATH=$PATH:/usr/local/go/bin
-   export GOBIN=/bin 
+   export GOBIN=/home/<user-name>/devops-handson/bin 
   ```
   - ` go version `
   - `go install app/app.go` 
