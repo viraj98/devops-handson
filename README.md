@@ -30,6 +30,18 @@ tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
 ```
 
 ## Steps for manualy deployment. 
+  - git clone <github repoistory url>
+  - cd devops-handson
+  - mkdir bin
+  - Execute below commands to make go available as command. 
+  ``` 
+   export GOROOT=/usr/local/go
+   export PATH=$PATH:/usr/local/go/bin
+   export GOBIN=/bin 
+  ```
+  - ` go version `
+  - `go install app/app.go` 
+   
 
 ## Jenkins job
 - Create new jenkins job <Free style>
