@@ -68,5 +68,6 @@ echo Deployment successful.
 ## Enhance jenkins job with build trigger 
  - Configure jenkins job and select `poll scm` in build triggers. 
 
-## Voice over : Show sample jenkins job with nexus and sonar. 
+## Voice over : Show sample jenkins job with Jenkinfile, nexus and sonar. 
 ## Broken code demo. 
+ - Modify app/app.go eg: remove `f` letter from fmt.println
