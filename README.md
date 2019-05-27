@@ -31,7 +31,7 @@ exit # to exit from root user
 ```
 
 ## Steps for manualy deployment. 
-  - git clone <github repoistory url>
+  - git clone https://github.com/gskrscm/devops-handson.git 
   - cd devops-handson
   - mkdir bin
   - Execute below commands to make go available as command. 
