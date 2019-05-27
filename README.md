@@ -68,5 +68,5 @@ echo Deployment successful.
 ## Enhance jenkins job with build trigger 
  - Configure jenkins job and select `poll scm` in build triggers. 
 
-## We will explain git pull request builder. (Voice over) - show sample jenkins job. with nexus sonar testing. 
+## Voice over : Show sample jenkins job with nexus and sonar. 
 ## Broken code demo. 
