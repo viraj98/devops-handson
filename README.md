@@ -27,6 +27,7 @@ systemctl enable jenkins
 ```
 wget https://storage.googleapis.com/golang/go1.12.5.linux-amd64.tar.gz
 tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
+exit # to exit from root user
 ```
 
 ## Steps for manualy deployment. 
