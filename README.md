@@ -73,4 +73,4 @@ echo Deployment successful.
  - Modify app/app.go eg: remove `f` letter from fmt.println
  
 ## Next Steps to learn more jenkins and CI and CD. 
-- Refer: https://jenkins.io/doc/book/pipeline/
+- Refer: https://jenkins.io/doc/book/pipeline/getting-started/
