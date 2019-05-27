@@ -71,3 +71,6 @@ echo Deployment successful.
 ## Voice over : Show sample jenkins job with Jenkinfile, nexus and sonar. 
 ## Broken code demo. 
  - Modify app/app.go eg: remove `f` letter from fmt.println
+ 
+## Next Steps to learn more jenkins and CI and CD. 
+- Refer: https://jenkins.io/doc/book/pipeline/
